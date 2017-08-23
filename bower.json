@@ -6,7 +6,7 @@
     "Laura Hamilton <laurahamilton9@gmail.com>"
   ],
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/hammmay/online-store",
   "ignore": [
     "**/.*",
     "node_modules",
