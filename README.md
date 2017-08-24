@@ -7,13 +7,23 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 2.) Navigate to the project folder
 3.) In the console: npm install
 4.) In the console: bower install bootstrap --save
-5.) In the console: ng serve
-npm install angularfire2@4.0.0-rc.0 firebase --save
+5.) Create a api-keys.ts file within the src/app/ folder
+6.) Place this code in the api-keys.ts file and replace the "x" characters with your own credentials from your own firebase app code:
+export var masterFirebaseConfig = {
+    apiKey: "xxxx",
+    authDomain: "xxxx.firebaseapp.com",
+    databaseURL: "https://xxxx.firebaseio.com",
+    storageBucket: "xxxx.appspot.com",
+    messagingSenderId: "xxxx"
+  };
+7.) In the console: npm install promise-polyfill --save-exact
+8.) In the console: ng serve
 6.) Navigate to http://localhost:4200/
 
 ## System Requirements
 -npm 3 or higher
 -bower
+-Firebase Account
 
 ## Build
 
