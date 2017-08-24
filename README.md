@@ -3,7 +3,7 @@
 * This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
 
 ## Setup Instructions
-|Enter these commands in your console|
+|Follow these steps to launch the application|
 |---|
 |1.) Clone project from github|
 |2.) Navigate to the project folder|
@@ -16,8 +16,7 @@
 *    authDomain: "xxxx.firebaseapp.com",
 *    databaseURL: "https://xxxx.firebaseio.com",
 *    storageBucket: "xxxx.appspot.com",
-*    messagingSenderId: "xxxx"
-*  };|
+*    messagingSenderId: "xxxx" };|
 |7.) In the console: ng serve|
 |8.) (optional) If the build is unsuccessful and you see a "polyfill" error, run this in the console before trying the ng serve command again: npm install promise-polyfill --save-exact|
 |9.) Navigate to http://localhost:4200/|
