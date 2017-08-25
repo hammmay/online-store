@@ -1,8 +1,9 @@
+import { FirebaseListObservable } from 'angularfire2/database';
 import { Component, OnInit } from '@angular/core';
 import { Album } from '../album.model';
 import { Router } from '@angular/router';
 import { AlbumService } from '../album.service';
-import { FirebaseListObservable } from 'angularfire2/database';
+
 
 @Component({
   selector: 'app-marketplace',
@@ -21,6 +22,6 @@ export class MarketplaceComponent implements OnInit {
     }
 
   goToDetailPage(clickedAlbum: Album) {
-    this.router.navigate(['albums', clickedAlbum.id]);
+  //  this.router.navigate(['albums', clickedAlbum.id]);
   };
 }
