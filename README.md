@@ -1,8 +1,20 @@
 # OnlineStore
 
+#### By Laura Hamilton
+
+## Description
+
+This application is a demonstration of JavaScript Angular using Firebase database with multiple page routes. A user can add, delete, and edit album details.
+
 * This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
 
-## Setup Instructions
+## System Requirements
+
+* npm 3 or higher
+* bower
+* Firebase Account
+
+## Installation
 |Follow these steps to launch the application|
 |---|
 |1.) Clone project from github|
@@ -11,31 +23,30 @@
 |4.) In the console: bower install bootstrap --save|
 |5.) Create a api-keys.ts file within the src/app/ folder|
 |6.) Place this code in the api-keys.ts file and replace the "x" characters with your own credentials from your own firebase app code:
- export var masterFirebaseConfig = {
-    apiKey: "xxxx",
-    authDomain: "xxxx.firebaseapp.com",
-    databaseURL: "https://xxxx.firebaseio.com",
-    storageBucket: "xxxx.appspot.com",
-    messagingSenderId: "xxxx" };|
+ export var masterFirebaseConfig = { apiKey: "xxxx", authDomain: "xxxx.firebaseapp.com", databaseURL: "https://xxxx.firebaseio.com", storageBucket: "xxxx.appspot.com", messagingSenderId: "xxxx" };|
+|---|
 |7.) In the console: ng serve|
 |8.) (optional) If the build is unsuccessful and you see a "polyfill" error, run this in the console before trying the ng serve command again: npm install promise-polyfill --save-exact|
 |9.) Navigate to http://localhost:4200/|
 
-## System Requirements
+## Technologies Used
 
-* npm 3 or higher
-* bower
-* Firebase Account
+* TypeScript
+* Bootstrap
+* Bower
+* Firebase
+* Angular
+* npm
 
-## Build
+## Specs
 
-* Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+|Behavior - Plain English|Input|Output|
+|---|---|---|
+|User clicks on the About or the Marketplace in the header and they are redirected to an About page or a Marketplace page respectively|User clicks on About in the header|User is taken to the About page|
+|User clicks on the Admin in the footer and they are redirected to a page where a album can be added|User clicks on Admin in the footer|User is taken to the Add New Album Admin page|
 
-## Running unit tests
+### Legal
 
-* Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Copyright (c) 2017 Laura Hamilton laurahamilton9@gmail.com
 
-## Running end-to-end tests
-
-* Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
+This software is licensed under the MIT license.
