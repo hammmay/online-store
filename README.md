@@ -11,12 +11,12 @@
 |4.) In the console: bower install bootstrap --save|
 |5.) Create a api-keys.ts file within the src/app/ folder|
 |6.) Place this code in the api-keys.ts file and replace the "x" characters with your own credentials from your own firebase app code:
-* export var masterFirebaseConfig = {
-*    apiKey: "xxxx",
-*    authDomain: "xxxx.firebaseapp.com",
-*    databaseURL: "https://xxxx.firebaseio.com",
-*    storageBucket: "xxxx.appspot.com",
-*    messagingSenderId: "xxxx" };|
+ export var masterFirebaseConfig = {
+    apiKey: "xxxx",
+    authDomain: "xxxx.firebaseapp.com",
+    databaseURL: "https://xxxx.firebaseio.com",
+    storageBucket: "xxxx.appspot.com",
+    messagingSenderId: "xxxx" };|
 |7.) In the console: ng serve|
 |8.) (optional) If the build is unsuccessful and you see a "polyfill" error, run this in the console before trying the ng serve command again: npm install promise-polyfill --save-exact|
 |9.) Navigate to http://localhost:4200/|
